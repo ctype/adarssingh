@@ -1,0 +1,8 @@
+1. [Introduction](#1-introduction)
+2. [Notice of alleged infringement](#2-notice-of-alleged-infringement-dmca-takedown-notice)
+3. [DMCA notice submission](#3-dmca-notice-submission)
+4. [Counter notification](#4-counter-notification-dmca-counter-notice)
+5. [Repeat infringers](#5-repeat-infringers)
+6. [False claims](#6-false-claims)
+7. [Modifications to this policy](#7-modifications-to-this-policy)
+8. [Contact information](#8-contact-information)

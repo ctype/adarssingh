@@ -1,0 +1,16 @@
+export const initialPresetFieldsData: PresetCreateUpdateFields = {
+  title: "",
+  description: null,
+  genreMix: 0,
+  visibility: 0,
+  tags: [],
+  isDraft: true,
+  mp3Files: [],
+  trackStreamFile: "",
+  artworkFile: "",
+  collaborators: [],
+  status: 0,
+  presetType: 0,
+  numberOfFiles: 0,
+  upVoteCount: 0,
+};

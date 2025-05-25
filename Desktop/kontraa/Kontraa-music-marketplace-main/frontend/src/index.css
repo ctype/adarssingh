@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* TODO: fluid typography  */
+  --fs-xs: clamp(0.56rem, 0.005vi + 0.559rem, 0.563rem);
+  --fs-sm: clamp(0.7rem, 0.091vi + 0.677rem, 0.75rem);
+  --fs-base: clamp(0.875rem, 0.227vi + 0.818rem, 1rem);
+  --fs-md: clamp(1.094rem, 0.435vi + 0.985rem, 1.333rem);
+  --fs-lg: clamp(1.367rem, 0.745vi + 1.181rem, 1.777rem);
+  --fs-xl: clamp(1.709rem, 1.199vi + 1.409rem, 2.369rem);
+  --fs-2xl: clamp(2.136rem, 1.857vi + 1.672rem, 3.157rem);
+  --fs-3xl: clamp(2.67rem, 2.797vi + 1.971rem, 4.209rem);
+  --fs-4xl: clamp(3.338rem, 4.132vi + 2.305rem, 5.61rem);
+}
+
+/*
+* {
+  font-family: "Alata", sans-serif;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #494949;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #242424;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alata", sans-serif;
+}
+
+h1 {
+  font-size: var(--fs-3xl);
+}
+
+h2 {
+  font-size: var(--fs-2xl);
+}
+
+h3 {
+  font-size: var(--fs-xl);
+}
+
+h4 {
+  font-size: var(--fs-md);
+}
+
+h5 {
+  font-size: var(--fs-base);
+}
+
+h6 {
+  font-size: var(--fs-sm);
+}
+
+p {
+  font-size: var(--fs-base);
+}
+
+.small {
+  font-size: var(--fs-sm);
+}
+
+.xsmall {
+  font-size: var(--fs-xs);
+}

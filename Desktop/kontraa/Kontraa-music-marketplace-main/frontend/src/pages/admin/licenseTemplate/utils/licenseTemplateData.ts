@@ -1,0 +1,21 @@
+export const initialLicenseTemplate: LicenseTemplateCreateUpdateFields = {
+  licenseTemplateName: "",
+  licenseTemplateDefaultPrice: null,
+  licenseTemplateMinOfferPrice: null,
+  licenseTemplateShortDescription: "",
+  type: "track",
+
+  audioLicenseDuration: null,
+  audioLicenseDistribution: "",
+  audioLicenseStreams: "",
+  audioLicenseFreeDownloads: "",
+  musicVideoMonitizedAmount: "",
+  musicVideoNonMonitizedAmount: "",
+  musicVideoMonitizedStreamAmount: "",
+  musicVideoNonMonitizedStreamAmount: "",
+  radioBroadcastRights: null,
+  radioStationsAmount: "",
+  livePerformanceProfitRights: null,
+  livePerformanceNonProfitAmount: "",
+  licenseTemplateText: "",
+}

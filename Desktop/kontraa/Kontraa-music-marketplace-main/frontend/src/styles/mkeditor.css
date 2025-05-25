@@ -1,0 +1,42 @@
+.mdxeditor {
+  border: 1px solid #333;
+  border-radius: 6px;
+  width: 100%;
+  min-height: 400px;
+}
+
+.mdxeditor-root-contenteditable {
+  padding: 6px 4px;
+}
+
+.mdxeditor-root-contenteditable div {
+  color: white;
+}
+
+.mdxeditor-root-contenteditable ul,
+.mdxeditor-root-contenteditable ol {
+  padding-left: 20px;
+}
+
+.mdxeditor-root-contenteditable ul {
+  list-style: disc;
+}
+
+.mdxeditor-root-contenteditable ol {
+  list-style: decimal;
+}
+
+.mdxeditor-root-contenteditable em {
+  font-style: italic;
+}
+
+.mdxeditor-root-contenteditable strong,
+.mdxeditor-root-contenteditable b,
+.mdxeditor-root-contenteditable h1,
+.mdxeditor-root-contenteditable h2,
+.mdxeditor-root-contenteditable h3,
+.mdxeditor-root-contenteditable h4,
+.mdxeditor-root-contenteditable h5,
+.mdxeditor-root-contenteditable h6 {
+  font-weight: bold;
+}

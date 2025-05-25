@@ -1,0 +1,18 @@
+export const initialSoundBankFieldsData: SoundBankCreateUpdateFields = {
+  title: "",
+  description: null,
+  genreMix: 0,
+  // soundBankInstrument: 0,
+  visibility: 0,
+  tags: [],
+  isDraft: true,
+  mp3Files: [],
+  trackStreamFile: "",
+  artworkFile: "",
+  collaborators: [],
+  status: 0,
+  numberOfFiles: 0,
+  upVoteCount: 0,
+  // soundKit: 0,
+  // soundBankCategory: 0,
+};
